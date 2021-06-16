@@ -4,18 +4,33 @@
     box-sizing: border-box;
 }
 /* common */
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
 /* /common */
 
+/* inizio contenitore generale */
 .container {
     position: relative;
     width: 100%;
     margin: 0 auto;
     background-color: blueviolet;
 }
+#box-1 {
+    background-color: red;
+}
+#box-2 {
+    background-color: green;
+}
+#box-3 {
+    background-color: yellow;
+}
+/* fine contenitore generale */
+
 /* barra navigazione */
 .button{
     position: fixed;
@@ -37,52 +52,41 @@ nav li {
     list-style: none;
 }
 nav li a {
-    /* display: inline-block;
     width: 30px;
-    height: 30px; */
+    height: 30px; 
+    text-align: center;
     background-color: white;
     margin: 0 30px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 50%;
     line-height: 100px;
     text-decoration: none;
     color: black;
-
-
 }
 /* fine barra navigazione */
 /* inizio sezione scarpe  */
-div.shoes {
+.shoes {
     position: relative;
-  
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 .scatola-scarpe{
     position: absolute;
-    width: 750px;
     top: 50%;
     left: 50%;
     transform:translate(-50%, -50%)
-   
-
 }
 img {
     width: 750px;
+    margin: 0 auto;
 }
 p {
     color: yellow;
     font-size: 50px;
-    text-align-last: center;
-    
+    text-align-last: center;   
 }
-#box-1 {
-    background-color: red;
+#green-text{
+    color: green;
 }
-#box-2 {
-    background-color: green;
-}
-#box-3 {
-    background-color: yellow;
-}
+
 /* fine sezione scarpe  */
