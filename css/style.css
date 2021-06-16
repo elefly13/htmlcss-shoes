@@ -51,12 +51,30 @@ nav li a {
 
 }
 /* fine barra navigazione */
+/* inizio sezione scarpe  */
 div.shoes {
+    position: relative;
   
     width: 100vw;
     height: 100vh;
+}
+.scatola-scarpe{
+    position: absolute;
+    width: 750px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%)
    
 
+}
+img {
+    width: 750px;
+}
+p {
+    color: yellow;
+    font-size: 50px;
+    text-align-last: center;
+    
 }
 #box-1 {
     background-color: red;
@@ -67,3 +85,4 @@ div.shoes {
 #box-3 {
     background-color: yellow;
 }
+/* fine sezione scarpe  */
